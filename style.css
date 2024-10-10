@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+#game {
+    width: 400px;
+    height: 600px;
+    background-color: lightgreen;
+    position: relative;
+    overflow: hidden;
+}
+
+#bird {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: 300px;
+}
